@@ -47,7 +47,7 @@ export const projectsFr = [
             
         ],
         url:'#portfolio',
-        detail:"<p>Mautic est un outil open source de marketing automatique</p> <p>L'application permet d'avoir des rapports dynamiques et détaillés, d’analyser les tendances individuels des campagnes.<br> Un tableau de bord visuellement convivial vous donne un point de vue rapide unique sur la performance de: vos campagnes numériques, assets, et formulaires. </p> <p>L'application est disponible en Français et en Anglais.</p>",
+        detail:"Application E-commerce développée pour mettre en pratique mes compétences en Angular et en Spring Boot. Cette application offre une interface conviviale pour la gestion des produits, des commandes et des utilisateurs. Elle inclut des fonctionnalités telles que l'ajout de produits au panier, la passerelle de paiement sécurisée, et un tableau de bord administrateur pour la gestion facile du contenu",
         codeSourceUrl:'https://gitlab.com/mbaye2425/angular-spring-ecommerce-app',
         detailIsDisplayed: false,
     },

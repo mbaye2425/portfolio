@@ -46,7 +46,7 @@ export const projectsEn = [
 
         ],
         url: '#portfolio',
-        detail: "<p>Mautic is an open-source automatic marketing tool.</p><p>The application allows for dynamic and detailed reports, analyzing individual campaign trends.<br> A visually friendly dashboard gives you a quick unique view of the performance of: your digital campaigns, assets, and forms.</p><p>The application is available in both French and English.</p>",
+        detail: "<p>E-commerce application developed to apply my skills in Angular and Spring Boot. This application provides a user-friendly interface for managing products, orders, and users. It includes features such as adding products to the cart, secure payment gateway, and an admin dashboard for easy content management.</p>",
         codeSourceUrl: 'https://gitlab.com/mbaye2425/angular-spring-ecommerce-app',
         detailIsDisplayed: false,
     },
@@ -57,7 +57,7 @@ export const projectsEn = [
         images: [
             {
                 title: 'Login',
-                src: "assets/images/login.png",
+                src: "assets/images/connexion.png",
             },
             {
                 title: 'Detail',
@@ -107,15 +107,15 @@ export const projectsEn = [
         images: [
             {
                 title: 'List',
-                src: "assets/images/list.png",
+                src: "assets/images/ct-list.png",
             },
             {
                 title: 'Detail',
-                src: "assets/images/detail.png",
+                src: "assets/images/ct-detail.png",
             },
             {
                 title: 'Add',
-                src: "assets/images/add.png",
+                src: "assets/images/ct-add.png",
             }
         ],
         url: '#portfolio',
