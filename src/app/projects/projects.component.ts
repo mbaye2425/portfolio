@@ -1,7 +1,9 @@
-import { projectsFr } from './../api/projectsFr';
 import { Component, OnInit } from '@angular/core';
 import { TranslationLoaderService } from '../service/translation-loader.service';
+import { locale as english } from '../shared/i18n/en';
 import { locale as french } from '../shared/i18n/fr';
+import { projectsEn} from '../api/projectsEn';
+import { projectsFr} from '../api/projectsFr';
 
 import { TranslateService } from '@ngx-translate/core';
 @Component({
@@ -10,13 +12,13 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  projects:any[]=projectsFr;
+  projects:any[]=projectsEn;
   venobox: any;
   constructor(private _translationLoaderService: TranslationLoaderService,private _translateService: TranslateService) {
-    this._translationLoaderService.loadTranslations(french, french);
+    this._translationLoaderService.loadTranslations(english, french);
     this._translateService.onLangChange.subscribe(()=>{
       if(this._translateService.currentLang=="en"){
-        this.projects=projectsFr;
+        this.projects=projectsEn;
       }
       else{
         this.projects=projectsFr;
