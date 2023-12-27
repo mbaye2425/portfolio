@@ -10,7 +10,7 @@ export const projectsEn = [
             },
             {
                 title: 'home',
-                src: "assets/images/taxi-home.png",
+                src: "assets/images/taxi-accueil.png",
             },
             {
                 title: 'search',
