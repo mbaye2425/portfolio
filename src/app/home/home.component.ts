@@ -10,7 +10,7 @@ import Typed from 'typed.js';
 export class HomeComponent implements OnInit {
 
   constructor(private _translationLoaderService: TranslationLoaderService) {
-    this._translationLoaderService.loadTranslations(french);
+    this._translationLoaderService.loadTranslations(french, french);
   }
   ngOnInit(): void {
     var options = {

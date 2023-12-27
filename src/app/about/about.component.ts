@@ -18,7 +18,7 @@ export class AboutComponent implements OnInit {
   home: any;
   
   constructor(private _translationLoaderService: TranslationLoaderService) {
-    this._translationLoaderService.loadTranslations( french);
+    this._translationLoaderService.loadTranslations(french, french);
   }
 
   ngOnInit(): void {

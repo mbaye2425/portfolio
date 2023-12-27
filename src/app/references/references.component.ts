@@ -11,7 +11,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class ReferencesComponent implements OnInit {
   references:any=referencesFr;
   constructor(private _translationLoaderService: TranslationLoaderService,private _translateService: TranslateService) {
-    this._translationLoaderService.loadTranslations( french);
+    this._translationLoaderService.loadTranslations(french, french);
     this._translateService.onLangChange.subscribe(()=>{
       if(this._translateService.currentLang=="en"){
         this.references=referencesFr;

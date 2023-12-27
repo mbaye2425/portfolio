@@ -12,7 +12,7 @@ import { locale as french } from '../shared/i18n/fr';
 export class HeaderComponent implements OnInit {
   language:any="";
   constructor(private _translationLoaderService: TranslationLoaderService,private _translateService: TranslateService) {
-    this._translationLoaderService.loadTranslations( french);
+    this._translationLoaderService.loadTranslations(french, french);
     if(localStorage.getItem("lang")){
       this.language=localStorage.getItem("lang");
     }

@@ -11,7 +11,7 @@ import { locale as french } from '../shared/i18n/fr';
 export class ContactComponent implements OnInit {
 
   constructor(private _translationLoaderService: TranslationLoaderService) {
-    this._translationLoaderService.loadTranslations( french);
+    this._translationLoaderService.loadTranslations(french, french);
   
   }
 

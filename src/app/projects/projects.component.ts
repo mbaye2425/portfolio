@@ -13,7 +13,7 @@ export class ProjectsComponent implements OnInit {
   projects:any[]=projectsFr;
   venobox: any;
   constructor(private _translationLoaderService: TranslationLoaderService,private _translateService: TranslateService) {
-    this._translationLoaderService.loadTranslations(french);
+    this._translationLoaderService.loadTranslations(french, french);
     this._translateService.onLangChange.subscribe(()=>{
       if(this._translateService.currentLang=="en"){
         this.projects=projectsFr;
