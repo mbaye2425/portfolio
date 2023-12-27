@@ -48,7 +48,7 @@ export const projectsFr = [
         ],
         url:'#portfolio',
         detail:"<p>Mautic est un outil open source de marketing automatique</p> <p>L'application permet d'avoir des rapports dynamiques et détaillés, d’analyser les tendances individuels des campagnes.<br> Un tableau de bord visuellement convivial vous donne un point de vue rapide unique sur la performance de: vos campagnes numériques, assets, et formulaires. </p> <p>L'application est disponible en Français et en Anglais.</p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/mautic_monitoring',
+        codeSourceUrl:'https://gitlab.com/mbaye2425/angular-spring-ecommerce-app',
         detailIsDisplayed: false,
     },
     {

@@ -1,107 +1,126 @@
 export const projectsEn = [
     {
-        id:"teamTraveler",
-        name: "Team Traveler",
-        technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
+        id: "teamTraveler",
+        name: "Taxi Reservation",
+        technologies: 'React Native, AWS Amplify',
         images: [
             {
-                title:'Trip',
-                src: "assets/images/voyages.webp",
+                title: 'search',
+                src: "assets/images/taxi-search.png",
             },
             {
-                title:'Trip',
-                src:"assets/images/voyage.webp",
+                title: 'home',
+                src: "assets/images/taxi-home.png",
             },
             {
-                title:'Housing',
-                src: "assets/images/logements.webp",
+                title: 'search',
+                src: "assets/images/taxi-search2.png",
             },
         ],
-        url: "https://play.google.com/store/apps/details?id=team.traveler.teamtraveler",
-        detail:"The application will allow you to organize group trips easily and quickly. Vote for dates, transport, accommodation or even activities. Thanks to this <a title='Download on Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.teamtraveler'>application</a> no more problems with choices or disagreements.",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/team_traveler',
+        url: "assets/images/taxi-vid1.mov",
+        detail: "The application allows you to organize group trips easily and quickly. Vote for dates, transportation, accommodation, or even activities. With this <video width='640' height='360' controls><source src='assets/images/taxi-vid1.mov' type='video/mp4'>Your browser does not support the video tag.</video>no more problems of choice or disagreements.",
+        codeSourceUrl: 'https://gitlab.com/mbaye2425/projet-fin-d-etude-l3-miage',
         detailIsDisplayed: false,
     },
     {
-        id:"mautic",
-        name: "Mautic Monitoring",
-        technologies: 'Android Studio, Java, Rx_Java, Retrofit, MVP, Rest',
+        id: "mautic",
+        name: "E-commerce App",
+        technologies: 'Spring Boot, Angular',
         images: [
             {
-                title:'Marketing campaigns',
-                src:   "assets/images/compagnes.jpg",
+                title: 'login page',
+                src: "assets/images/e-login.png",
             },
             {
-                title:'Campaign detail',
-                src :"assets/images/compagne-detail.jpg",
+                title: 'add page',
+                src: "assets/images/e-add.png",
             },
             {
-                title:"Email performance",
-                src: "assets/images/email-detail.jpg",
+                title: "detail page",
+                src: "assets/images/e-detail.png",
             },
             {
-                title:"Performance of an asset",
-                src: "assets/images/asset-detail.jpg" 
+                title: "details page2",
+                src: "assets/images/e-detail2.png"
             },
-            
+
         ],
-        url:'#portfolio',
-        detail:"<p>Mautic is an open source automatic marketing tool</p> <p>The application allows you to have dynamic and detailed reports, to analyze individual campaign trends.<br> A visually user-friendly dashboard gives you a unique quick view of the performance of: your digital campaigns, assets, and forms. </p> <p>The application is available in French and English.</p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/mautic_monitoring',
+        url: '#portfolio',
+        detail: "<p>Mautic is an open-source automatic marketing tool.</p><p>The application allows for dynamic and detailed reports, analyzing individual campaign trends.<br> A visually friendly dashboard gives you a quick unique view of the performance of: your digital campaigns, assets, and forms.</p><p>The application is available in both French and English.</p>",
+        codeSourceUrl: 'https://gitlab.com/mbaye2425/angular-spring-ecommerce-app',
         detailIsDisplayed: false,
     },
     {
-        id:"pokedex",
-        name: "Pokedex",
-        technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
+        id: "pokedex",
+        name: "Pokemon",
+        technologies: 'Angular, Firebase',
         images: [
             {
-                title:'Pokedex',
-                src:   "assets/images/pokedex.png",
+                title: 'Login',
+                src: "assets/images/login.png",
             },
             {
-                title:'Trainers',
-                src :"assets/images/trainers.png",
+                title: 'Detail',
+                src: "assets/images/detail.png",
             },
             {
-                title:"Profile",
-                src: "assets/images/profile-trainer.png",
-            },            
+                title: "List",
+                src: "assets/images/list.png",
+            },
         ],
-        url:'#portfolio',
-        detail:"<p>Display of the details of pokemon and their trainers.</p> <p>The two micro-service application contains: pokemon management and trainer management, which exposes a REST/JSON communication channel.<br>The 3rd WEB-UI micro-service connects to both micro-services.</p>",
-        codeSourceUrl:'https://github.com/ifi-2019/trainer-ui-zinedineBenkhider',
+        url: '#portfolio',
+        detail: "<p>I developed an interactive application dedicated to the fascinating world of Pokémon using Angular as the front-end framework and Firebase as the backend for data management. This initiative was an opportunity for me to apply my newly acquired skills and create an immersive user experience.</p>",
+        codeSourceUrl: 'https://gitlab.com/mbaye2425/pokemon/-/tree/master?ref_type=heads',
         detailIsDisplayed: false,
     },
     {
-        id:"portfolio",
-        name: "Portfolio",
-        technologies: 'Angular11, Html5, CSS, TypeScript, BootStrap',
+        id: "portfolio",
+        name: "Workshop",
+        technologies: 'Symfony, Bootstrap',
         images: [
             {
-                title:'Portfolio',
-                src:   "assets/images/portfolio.png",
+                title: 'Portfolio',
+                src: "assets/images/at-code.png",
             },
+            {
+                title: 'Portfolio',
+                src: "assets/images/at-list.png",
+            },
+            {
+                title: 'Portfolio',
+                src: "assets/images/at-detail.png",
+            },
+            {
+                title: 'Portfolio',
+                src: "assets/images/at-login.png",
+            }
         ],
-        url:'https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640',
-        detail:"<p> CV in the form of a responsive WEB site that I put in open-source on GitHub accompanied by a publication of a <a title='See the article' href='https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640' target='_blank'>article</a> on medium. </p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/portfolio',
+        url: '#portfolio',
+        detail: "During my educational journey, I undertook the development of a significant project aimed at validating my skills as a Symfony developer. This project involved creating a workshop management system, putting into practice the concepts learned throughout my apprenticeship.",
+        codeSourceUrl: 'https://gitlab.com/projet-informatique_back/cc-atelier/-/tree/master?ref_type=heads',
         detailIsDisplayed: false,
     },
     {
-        id:"riddle",
-        name: "Transfer Riddle",
-        technologies: 'Java, J2EE(Web Services), JavaScript, Html5, CSS, BootStrap',
+        id: "riddle",
+        name: "Mini Application",
+        technologies: 'Symfony, Api platform, Angular',
         images: [
             {
-                title:'Riddle',
-                src:   "assets/images/riddle.png",
+                title: 'List',
+                src: "assets/images/list.png",
             },
+            {
+                title: 'Detail',
+                src: "assets/images/detail.png",
+            },
+            {
+                title: 'Add',
+                src: "assets/images/add.png",
+            }
         ],
-        url:'https://transfer-riddle-solver.herokuapp.com/index.html',
-        detail:"Display of the steps for solving the decanting puzzle. Given two empty tanks of capacity X and Y, how to obtain precisely T liters in one of the two tanks (T being an integer). You can fill or empty a tank , and transfer the contents from one to the other, until the source is empty or the destination full.",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/transfer_riddle_client',
+        url: '#portfolio',
+        detail: "Indeed, this application was created to demonstrate our technical skills in Angular and Symfony. We used these two frameworks to develop the application and put into practice the concepts we learned in our academic curriculum.",
+        codeSourceUrl: 'https://gitlab.com/mbaye2425/ct-angular-symfony-l3/-/tree/master?ref_type=heads',
         detailIsDisplayed: false,
     },
 ];
-

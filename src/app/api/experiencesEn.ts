@@ -1,51 +1,55 @@
 export const experiencesEn = [
     {
-        title: "Freelance developer",
-        company: 'Scotfy, Lyon, Fr',
-        period: "2020 - 2021 (2 months)",
-        technologies: 'C#, .NET, Angular 11, Angular Materials, pgSql, Qlik Sense',
-        missions: [
-            "Implementation of a theme manager (colors, logo).",
-            "Setting up a virtual folder manager that can contain Qlik Sense apps.",
-            "Development of a resource saving interface.",
-            "Creating customizable web pages: Qlik Sense Mashups (In progress).",
+        "title": "Online Taxi Platform",
+        "company": "University of Orleans, Orleans, France",
+        "period": "2022 - 2023 (3 months)",
+        "technologies": "React Native, AWS Amplify",
+        "missions": [
+        "Design and complete development of a taxi reservation application using React Native.",
+        "Integration of AWS Amplify for managing cloud services, including authentication, storage, and backend functions.",
+        "Collaboration with a team of 3 people to achieve project goals."
         ],
-        detailIsDisplayed: false,
+        "detailIsDisplayed": false
     },
     {
-        title: "Freelance developer",
-        company: 'AGC Glass Europe, Maubeuge, Fr',
-        period: "2020 - 2021 (5 months)",
-        technologies: 'JAVA 8, Spring, Angular 8, Angular Materials, MySql',
-        missions: [
-            "Development of a supplier rating application by buyers.",
-            "Evolutionary and corrective maintenance of applications.",
+        "title": "Training Workshop Management",
+        "company": "University of Orleans, France",
+        "period": "2022 - 2023 (1 month)",
+        "technologies": "PHP, Symfony, Api Platform",
+        "missions": [
+        "Creation of a registration platform for training workshops.",
+        "Management of registrations and unregistrations.",
+        "Rights management.",
+        "Rating system for a workshop attended by an apprentice."
         ],
-        detailIsDisplayed: false,
+        "detailIsDisplayed": false
     },
     {
-        title: "Work-study developer",
-        company: 'AGC Glass Europe, Maubeuge, Fr',
-        period: "2019 - 2020 (1 year)",
-        technologies: 'JAVA 8, Spring, Angular 8, Angular Materials, MySql',
-        missions: [
-            "Application for managing trucks entering the site",
-            "Improving an application for creating prevention plans.",
-            "Glass order formatting application, in the interest of better readability of priorities for production teams.",
-            "Creating customizable web pages: Qlik Sense Mashups (In progress).",
+        "title": "Survey Creation Application",
+        "company": "University of Orleans, France",
+        "period": "2022 - 2023 (3 months)",
+        "technologies": "Symfony, Angular 15, Angular Materials, PostgreSQL",
+        "missions": [
+        "Use of Docker.",
+        "Use of PostgreSQL.",
+        "Management of forms in Angular (reactive forms or template-driven forms).",
+        "Use of Angular's HTTP module to make HTTP requests and interact with APIs."
         ],
-        detailIsDisplayed: false,
+        "detailIsDisplayed": false
     },
     {
-        title: "Software Developer Intern",
-        company: 'Scotfy, Lyon, Fr',
-        period: "2018 (3 months)",
-        technologies: 'C#, .NET, Chiffrement AES-256',
-        missions: [
-            "Multilingual: Implementation of a language management system to allow the user to choose the language of interfaces, messages and logs.",
-            "License key: Software validation using a license key based on the Windows user name.",
+        "title": "Software Developer Intern",
+        "company": "Confledis, Paris, France",
+        "period": "2022 (3 months)",
+        "technologies": "Symfony, Angular 15, Tailwind, PostgreSQL, Ionic",
+        "missions": [
+        "Creation of modules with Ionic for the development of hybrid mobile applications.",
+        "Design of responsive user interfaces for mobile applications.",
+        "Optimization of performance.",
+        "Bug fixing and problem resolution.",
+        "Implementation of new features in response to user needs."
         ],
-        detailIsDisplayed: false,
+        "detailIsDisplayed": false
     },
 ];
 
